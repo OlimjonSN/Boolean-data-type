@@ -1,3 +1,5 @@
+import 'dart:math';
+
 bool func(a) {
   /*
     check that the number "a" is a perfect square.
@@ -7,9 +9,9 @@ bool func(a) {
         bool
     */
   // Write your code here
-  return a % 1 == 0 && a > 0;
+  return sqrt(a).floor() == sqrt(a).ceil();
 }
 
 void main() {
-  print(func(7));
+  print(func(4));
 }
