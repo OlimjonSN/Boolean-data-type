@@ -7,7 +7,8 @@
         bool
 */
 
-void main() {}
 func(a) {
   return a == 7;
 }
+
+void main() {}
