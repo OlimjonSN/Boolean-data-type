@@ -8,3 +8,6 @@
     */
 
 void main() {}
+func(b) {
+  return b > 0;
+}
