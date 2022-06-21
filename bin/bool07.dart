@@ -1,5 +1,5 @@
-bool func(a, b) {
-  /*
+/*
+    Create function func
     Check the logic "They are not equal"
     Args:
         a: int
@@ -7,10 +7,5 @@ bool func(a, b) {
     Returns:
         bool
     */
-  // Write your code here
-  return a != b;
-}
 
-void main() {
-  print(func(1, 1));
-}
+void main() {}
